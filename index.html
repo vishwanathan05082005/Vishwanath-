@@ -1,0 +1,199 @@
+body>
+
+    <header>
+
+        <div class="header-content">
+
+            <!-- Add your profile picture here -->
+
+            <img src="passport photo.jpg" alt="Your Profile Picture" class="profile-picture">
+
+            <h1>Viswanathan M</h1>
+
+            <p>Web Developer </p>
+
+        </div>
+
+    </header>
+
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#resume">Resume</a></li>
+
+           
+
+        </ul>
+
+    </nav>
+
+
+    <section id="about">
+
+        <div class="section-content">
+
+            <h2>About Me</h2>
+
+            <p>I'm a <b>web development</b> expert who is passionate about creating dynamic and user-friendly websites. 
+
+                I'm driven by the desire to craft high-performance web applications that enhance user experience and provide
+
+                 seamless digital solutions. With over 7 years of experience in the field, I'm dedicated to staying up to date 
+
+                 with the latest trends and innovations in the 
+
+                 web development landscape. I'm also committed to helping others learn more about web technologies, 
+
+                 best practices, and how to build secure and scalable websites.</p>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="education">
+
+        <div class="section-content">
+
+            <h2>Education</h2>
+
+            <p>University Madras<br>B.Sc. Computer Science with Data Science (2023-2026)</p>
+
+            
+
+            
+
+        </div>
+
+    </section>
+
+
+    <section id="skills">
+
+        <div class="section-content">
+
+            <h2>Skills</h2>
+
+            <ul>
+
+                
+
+               
+
+                
+
+                <li>Python</li>
+
+                
+
+                
+
+                <li>java</li>
+
+                <li>c++</li>
+
+                <li>HTML</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <div class="section-content">
+
+            <h2>Projects</h2>
+
+            <ul>
+
+                <li><a href="#">Digital Portfolio</a></li>
+
+                <!-- Add more project links here -->
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <section id="resume">
+
+    
+
+        <div class="section-content">
+
+            <center>
+
+            <h2>Resume</h2>
+
+            <a href="" target="_blank" class="download-button">Download CV</a>
+
+        </center>
+
+        </div>
+
+        
+
+    </section>
+
+
+    <footer>
+
+        <p>&copy; 2025 Pranesh S</p>
+
+    </footer>
+
+
+    <script>
+
+        // Smooth scrolling to section when clicking on navigation links
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function(e) {
+
+                e.preventDefault();
+
+
+                const targetId = this.getAttribute('href').substring(1);
+
+                const targetElement = document.getElementById(targetId);
+
+
+                if (targetElement) {
+
+                    window.scrollTo({
+
+                        top: targetElement.offsetTop,
+
+                        behavior: 'smooth'
+
+                    });
+
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
